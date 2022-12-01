@@ -28,6 +28,10 @@ if get_option('enable_wayfire_shadows') == true
     wayfire_shadows = subproject('wayfire-shadows')
 endif
 
+if get_option('enable_wf_wallpaper') == true
+    wf_wallpaper = subproject('wf-wallpaper')
+endif
+
 add_project_arguments(['-DWLR_USE_UNSTABLE'], language: ['cpp', 'c'])
 add_project_arguments(['-DWAYFIRE_PLUGIN'], language: ['cpp', 'c'])
 add_project_link_arguments(['-rdynamic'], language:'cpp')
