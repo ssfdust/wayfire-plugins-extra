@@ -6,7 +6,7 @@
 	url = https://github.com/timgott/wayfire-shadows
 [submodule "subprojects/wf-wallpaper"]
 	path = subprojects/wf-wallpaper
-	url = https://github.com/DankBSD/wf-wallpaper.git
+	url = https://codeberg.org/valpackett/wf-wallpaper.git
 [submodule "subprojects/dbus"]
 	path = subprojects/dbus
 	url = https://github.com/soppelmann/wayfire-plugin_dbus_interface.git
